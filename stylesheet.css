@@ -1,0 +1,124 @@
+body{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.icon{
+  margin:0 auto;
+  width:500px;
+  padding:100px 0 0 0;
+
+}
+
+.icon {
+  animation: fadeIn 5s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
+}
+ 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.concept{
+  padding-top:100px;
+}
+
+.info{
+  text-align: center;
+}
+
+.info h1{
+  animation: fadeIn 5s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
+}
+
+.RESFORM{
+  display:flex;
+}
+
+
+.RESFORM a{
+  flex:auto;
+  width:50%;
+}
+
+
+.RESARVATION{
+  display:block;
+  background-color: black;
+  width:300px;
+  text-align: center;
+  margin:20px 50px 20px auto;
+  font-size:20px;
+}
+
+.RESARVATION a{
+  color:white;
+}
+
+
+.tel{
+  display:block;
+  background-color: black;
+  color:white;
+  width:300px;
+  text-align: center;
+  margin:20px auto 20px 50px;
+  font-size:20px;
+  
+}
+
+.tel a{
+  color:white;
+}
+
+.news{
+  margin-top:100px;
+}
+
+.news h1{
+  text-align: center;
+  border-bottom:5px solid black ;
+  width:100px;
+  margin: 0 auto;
+}
+
+.news p{
+  text-align: center;
+}
+
+.staff1{
+  display:block;
+  height:230px;
+  width:300px;
+  margin:100px auto;
+  text-align:center;
+}
+
+
+.menuprice{
+  border:5px solid black;
+  width: 80%;
+  margin:100px auto;
+
+}
+
+.menu{
+  width:650px;
+  margin:0 auto;
+}
+
+.menuprice h1{
+  text-align: center;
+}
+
+.map{
+  padding:0 100px;
+}
+
+footer p{
+  text-align: center;
+}
