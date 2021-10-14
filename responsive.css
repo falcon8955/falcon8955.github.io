@@ -3,3 +3,88 @@
     pointer-events: none;
   }
 }
+
+@media(max-width:600px){
+
+  body{
+    font-size: 10px;
+  }
+
+  .icon{
+    margin:0 auto;
+    width:60%px;
+    height: 60px;
+    padding:100px 0 0 0;
+  }
+  .icon img{
+    height:60px;
+  }
+  
+  .info h1{
+    font-size: 10px;
+  }
+
+  .news{
+    margin-top: 20px;
+  }
+
+  .concept{
+    padding-top: 50px;
+    width: 70%;
+    margin:0 auto;
+  }
+
+  .RESFORM {
+    flex-direction:column;
+    width:60%;
+    margin:10px auto;
+  }
+
+  .RESARVATION{
+    margin:10px auto;
+    width:100%;
+    font-size: 10px;
+  }
+
+  .tel{
+    margin:10px auto;
+    width:100%;
+    font-size:10px;
+
+  }
+  
+  
+
+  .menuprice{
+    margin-bottom:20px;
+    margin-top: 10px;
+  }
+
+  .menu ul{
+    padding-bottom: 20px;
+  }
+
+  .staff{
+    height: 100px;
+  }
+
+  .staff1{
+    height:110px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+
+  
+
+  .map{
+    padding:0 10px;
+    margin: auto;
+    width: 80%;
+    block-size: 200px;
+  }
+
+  .iframe{
+    block-size: 200px;
+  }
+}
